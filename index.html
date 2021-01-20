@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <style>
-        h1{font-family:"Georgia";font-size:35px;}
-        h2{font-size: 25px;}
-        p{font-family:"Trebuchet MS";font-size: 15px;}
+        h1{font-family:"Georgia";font-size:35px;color:black;}
+        h2{font-size: 25px;color: black;}
+        p{font-family:"Trebuchet MS";font-size: 15px;color: black;}
     </style>
 
     <head>
@@ -13,63 +13,59 @@
 
     <body style="background-color: lightgray;">
         <h2>html elements</h2>
-            <p>&lt;start tag&gt;tag content&lt;/end tag&gt;<br>tag is use for defined type of the tag content</p>
+            <p>&lt;start tag&gt;tag content&lt;/end tag&gt;<br>tag เป็นตัวที่ใช้บอกชนิดของ tag content</p>
         <hr>
         
         <h2>html attribute</h2>
-            <p><b>href attribute</b><br>href locate url reference for &lt;a&gt;<br>&lt;a&gt; add the url link to a text <br><b>tag elements</b></p>
+            <p><b>href attribute</b><br>href มีใว้สำหรับระบุ url ที่ใว้อ้างอิงของ tag &lt;a&gt;<br>&lt;a&gt; ใช้ในการเพิ่ม url ให้กับตัว text <br><b>tag syntax</b></p>
             <p>&lt;a href = "url link"&gt;url link name&lt;/a&gt;</p>
-            <p><b>example code</b></p>
+            <p><b>example</b></p>
             <p>&lt;a href = "https://www.google.com" &gt;google url &lt;a&gt;</p>
             <p><b>result</b></p>
             <a href = "https://www.google.com" >google url<br></a>
 
-            <p><b>src and alt attribute</b><br>src locate image file for &lt;img&gt;<br>alt alternative name for image when image unavaliable<br>&lt;img&gt; add image to html page<br><b>tag elements</b></code></p>
+            <p><b>src and alt attribute</b><br>src ใช้ระบุตำเเหน่งของไฟล์ให้กับ &lt;img&gt;<br>alt ใช้เพื่อกำหนดชื่อของรูปภาพเมื่อไม่สามารถเเสดงรูปใด้<br>&lt;img&gt; ใช้เพื่อเพิ่มรูปภาพในหน้าของ html<br><b>tag syntax</b></p>
             <p>&lt;img src = "image directory" alt = "alternative name" &gt;</p>
-            <p><b>example code #1</b></p>
+            <p><b>example #1</b></p>
             <p>&lt;img src = "image/image.jpg"&gt;</p>
             <p><b>result</b></p>
             <img src = "images/image.jpg">
-            <p><b>example code #2</b></p>
-            <p>&lt;img src = "picture.jpg" alt="an image"&gt; #there was no file name picture.jpg</p>
+            <p><b>example #2</b></p>
+            <p>&lt;img src = "picture.jpg" alt="an image"&gt; #รูปนี้ไม่มีอยู่มีอยู่บนเว็บ</p>
             <p><b>result</b></p>
             <img src = "no image" alt="an image">
 
-            <p><b>width and height attribute</b><br>both width and height use to set an image size<br><b>tag elements</b></p>
+            <p><b>width and height attribute</b><br>ทั้ง width and height ใช้สำหรับกำหนดขนาของรูปภาพที่เเสดงบน html<br><b>tag syntax</b></p>
             <p>&lt;img src = "image/image.jpg" width = "width" height = "height"&gt;</p>
             <p><b>example code</b></p>
             <p>&lt;img src = "image/image.jpg"&gt; width = "512" height = "288"&gt;</p>
             <p><b>result</b></p>
             <img src = "images/image.jpg" width = "512" height = "288">
 
-            <p><b>title attribute</b><br>title use to show more infomation for the paragraph when the cursor over the text<br><b>tag elements</b></p>
+            <p><b>title attribute</b><br>title ใช้เพื่อเเสดงข้อมูลเพื่มเติมเมื่อนำ cursor วางใว้บน text<br><b>tag syntax</b></p>
             <p>&lt;p title = "text infomation"&gt;paragraph&lt;/p&gt;</p>
-            <p><b>example code</b></p>
-            &lt;p title = "just a text"&gt;get the cursor over me&lt;/p&gt;
+            <p><b>example</b></p>
+            <p>&lt;p title = "just a text"&gt;get the cursor over me&lt;/p&gt;</p>
             <p><b>result</b></p>
             <p title = "just a text">get the cursor over me</p>
 
-            <p><b>style attribute</b><br>style use to customize the text color size and more<br><b>tag elements</b></p>
+            <p><b>style attribute</b><br>style ใช้สำหรับปรับเเต่งสีเเละขนาดของ text<br><b>tag syntax</b></p>
             <p>&lt;p style = "color:any color or rgb values;"&gt;paragraph with color&lt;/p&gt;</p>
-            <p><b>example code #1</b></p>
+            <p><b>example #1</b></p>
             <p>&lt;p style = "color:blue;"&gt;paragraph with color&lt;/p&gt;</p>
             <p><b>result</b></p>
             <p style = "color:blue;">paragraph with color</p>
-            <p><b>example code #1</b></p>
-            <p>&lt;p style = "color:blue;"&gt;paragraph with color&lt;/p&gt;</p>
-            <p><b>result</b></p>
-            <p style = "color:blue;">paragraph with color</p>
-            <p><b>example code #2</b></p>
+            <p><b>example #2</b></p>
             <p>&lt;p style = "color:rgb(241, 165, 50);font-size:30px"&gt;paragraph with color and bigger text&lt;/p&gt;</p>
             <p><b>result</b></p>
             <p style = "color:rgb(241, 165, 50);font-size:30px;">paragraph with color and bigger text</p>
             
-            <p><b>lang attribute</b><br>&lt;html lang = "language code"&gt; lang use to declare the language of the webpage for search engine</p>
+            <p><b>lang attribute</b><br>&lt;html lang = "language code"&gt; lang ใช้เพือระบุภาษาของหน้า web page เพื่อใช้กับ search engine</p>
         <hr>
 
         <h2>html heading</h2>
-            <p>heading are defined by using &lt;h1&gt; to &lt;h6&gt; when h1 is the most important and h6 is the least important heading</p>
-            <p><b>example code</b></p>
+            <p>heading จะสามารถเเบ่งใด้จาก &lt;h1&gt; ถึง &lt;h6&gt; เมื่อ h1 เป็นหัวข้อที่สำคัญที่สุดเเละ h6 เป็นหัวข้อที่สำคัญน้อยที่สุด</p>
+            <p><b>example</b></p>
             <p>&lt;h1&gt;1 heading&lt;/h1&gt;<br>&lt;h2&gt;2 heading&lt;/h2&gt;<br>&lt;h3&gt;3 heading&lt;/h3&gt;<br>&lt;h4&gt;4 heading&lt;/h4&gt;<br>&lt;h5&gt;5 heading&lt;/h5&gt;<br>&lt;h6&gt;6 heading&lt;/h6&gt;</p>
             <p><b>result</b></p>
             <h1>1 heading</h1>
@@ -78,13 +74,62 @@
             <h4>4 heading</h4>
             <h5>5 heading</h5>
             <h6>6 heading</h6>
-            <p>you also can customize the heading by using style attribute</p>
+            <p>นอกจากนี้สามารถปรับเเต่ง heading โดยใช้ style ใด้ด้วย</p>
             <p><b>example code</b></p>
             <p>&lt;h1 style = "font-size:40px;color:lightsalmon;"&gt;custom heading&lt;/h1&gt;</p>
             <h1 style = "font-size:40px;color:lightsalmon;">customize heading</h1>
         <hr>
         
         <h2>html paragraph</h2>
+            <p>paragraph ใช้กับตัวเนื้อภายใน html</p>
+            <p>ตัวของ paragraph เมื่อทำการประกาศใช้จะเป็นการขึ้นบรรทัดใหม่ทุกรอบที่ประกาศใช้<br><b>example</b></p>
+            <p>&lt;p&gt;first paragraph&lt;/p&gt;<br>&lt;p&gt;second paragraph&lt;/p&gt;<br>&lt;p&gt;thrid paragraph&lt;/p&gt;</p>
+            <p><b>result</b></p>
+            <p>first paragraph</p>
+            <p>second paragraph</p>
+            <p>thrid paragraph</p>
+            <p>ตัวของ paragraph นั้นจะไม่สนว่าตัว text นั้น จะอยู่ห่างจากกันเท่าใหร่หรือว่าจะอยู่คนละบรรทัดก็จะนำมาเเสดงเป็นอันเดียวกัน<br><b>example</b></p>
+            <pre>&lt;p&gt;this          is the 
+                same paragraph&lt;/p&gt;</pre>
+            <p><b>result</b></p>
+            <p><p>this is the 
+                same paragraph</p></p>
+            <p>เนื่องจาก &lt;p&gt; นั้นไม่สนเรืองบรรทัดเเละระยะห่างของตัว text จึงทำให้การ quote คำพูดหรือ text ที่ใด้มีการจัดรูปใว้เเล้วนั้นทำใด้ยากจึงใด้มี &lt;pre&gt; เพื่อใว้ใช้กับบทความที่มีการจัดเรียงมาใว้เเล้ว<br><b>example code</b></p>
+            <pre>&lt;pre&gt;"There is no law except the law that there is no law." 
+                - John Archibald Wheeler&lt;/pre&gt;</pre>
+
+            <pre>"There is no law except the law that there is no law." 
+                            - John Archibald Wheeler</pre>
+        <hr>
+
+        <h2>html style</h2>
+            <p>style ใช้สำหรับปรับเเต่งสี ขนาด font เเละ อื่นๆ ของ tag ต่างๆ<br><b>tag syntax</b></p>
+            <p>&lt;tagname style="property:value;"&gt;tag content&lt;/tagname&gt;</p>
+            <p><b>background-color</b><br>background-color เป็นการกำหนดสีพื้นหลังของ tag ที่ใช้กับ style<br><b>example</b></p>
+            <p>&lt;p style = "background-color:coral"&gt;a text with changing background-color&lt;/p&gt;</p>
+            <p><b>result</b></p>
+            <p style = "background-color: coral;">a text with changing background-color</p>
+            <p><b>color</b><br>color เป็นการกำหนดสีของตัวอักษรที่เเสดง<br><b>example</b></p>
+            <p>&lt;p style="color: indigo;"&gt;colored text&lt;/p&gt;</p>
+            <p><b>result</b></p>
+            <p style="color: indigo;">colored text</p>
+            <p><b>font-family</b><br>font เป็นการกำหนด font ของตัวอักษรที่เเสดง<br><b>example</b></p>
+            <p>&lt;p style="font-family: fantasy;"&gt;this is fantasy font&lt;/p&gt;</p>
+            <p><b>result</b></p>
+            <p style="font-family: fantasy;">this is fantasy font</p>
+            <p><b>font-size</b><br>เป็นการกำหนดขนาดของตัวอักษรที่เเสดง<br><b>example</b></p>
+            <p>&lt;p style="font-size:200%;"&gt;bigger paragraph&lt;/p&gt;</p>
+            <p><b>result</b></p>
+            <p style="font-size:200%;">bigger paragraph</p>
+            <p><b>text-align</b><br>เป็นการกำหนดตำเเหน่งของตัวอักษรที่เเสดง<br><b>example</b></p>
+            <p>&lt;p style="text-align: end;"&gt;text at the most right&lt;/p&gt;</p>
+            <p><b>result</b></p>
+            <p style="text-align: end;">text at the most right</p>
+        <hr>
+        
+        <h2>html text formatting</h2>
+        
+
 
     </body>
 </html>
