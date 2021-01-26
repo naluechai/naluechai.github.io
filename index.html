@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="th">
     <style>
         h1{font-family:"Georgia";font-size:35px;color:black;}
         h2{font-size: 25px;color: black;}
         p{font-family:"Trebuchet MS";font-size: 15px;color: black;}
+        pre{font-family:"Trebuchet MS";font-size: 15px;color: black;}
     </style>
 
-    <head>
-        <h1>html tutorial</h1>
-    </head>
+<body style="background-color: lightgray;">
+    <h1>HTML</h1>
     <hr>
-
-    <body style="background-color: lightgray;">
-        <h2>html elements</h2>
+    
+    <h2>html elements</h2>
             <p>&lt;start tag&gt;tag content&lt;/end tag&gt;<br>tag เป็นตัวที่ใช้บอกชนิดของ tag content</p>
         <hr>
         
@@ -128,8 +127,151 @@
         <hr>
         
         <h2>html text formatting</h2>
+        <p>การจัดรูปเเบบของตัวอักษรที่เเสดงสามารถใช้คำสั่งต่อไปนี้ใด้</p>
+        <p>&lt;b&gt; & &lt;strong&gt; เป็นการเเสดงตัวอักษรเป็นตัวหนา
+        <br>&lt;i&gt; & &lt;em&gt; เป็นการเเสดงอักษรเป็นตัวเอียง
+        <br>&lt;small&gt; เป็นการเเสดงตัวอักษรที่เล็กกว่าปกติ
+        <br>&lt;mark&gt; เป็นการ highlight ตัวอักษร
+        <br>&lt;del&gt; เป็นการขีดเส้นฆ่าข้อความ
+        <br>&lt;ins&gt; เป็นการขีดเส้นใต้ข้อความ
+        <br>&lt;sub&gt; & &lt;sup&gt; เป็นการเเสดงข้อความข้างล่างหรือบน
+        </p>
+        <p><b>example</b></p>
+        <p>
+            &lt;p&gt;normal &lt;b&gt;bold&lt;/b&gt;&lt;/p&gt;
+            <br>&lt;p&gt;normal &lt;strong&gt;strong&lt;/strong&gt;&lt;/p&gt;
+            <br>&lt;p&gt;normal &lt;i&gt;italic&lt;/i&gt;&lt;/p&gt;
+            <br>&lt;p&gt;normal &lt;em&gt;emphasis&lt;/em&gt;&lt;/p&gt;
+            <br>&lt;p&gt;normal &lt;small&gt;small&lt;/small&gt;&lt;/p&gt;
+            <br>&lt;p&gt;normal &lt;mark&gt;mark&lt;/mark&gt;&lt;/p&gt;
+            <br>&lt;p&gt;normal &lt;del&gt;delete&lt;/del&gt;&lt;/p&gt;
+            <br>&lt;p&gt;normal &lt;ins&gt;insert&lt;/ins&gt;&lt;/p&gt;
+            <br>&lt;p&gt;normal &lt;sub&gt;subscript&lt;/sub&gt;&lt;/p&gt;
+            <br>&lt;p&gt;normal &lt;sup&gt;superscript&lt;/sup&gt;&lt;/p&gt;
+        </p>
+            <p><b>result</b></p>
+            <p>normal <b>bold</b></p>
+            <p>normal <strong>strong</strong></p>
+            <p>normal <i>italic</i></p>
+            <p>normal <em>emphasis</em></p>
+            <p>normal <small>small</small></p>
+            <p>normal <mark>mark</mark></p>
+            <p>normal <del>delete</del></p>
+            <p>normal <ins>insert</ins></p>
+            <p>normal <sub>subscript</sub></p>
+            <p>normal <sup>superscript</sup></p>
+
+        <h2>html quotation</h2>
+            <p>
+            &lt;blockquote&gt; ใช้สำหรับการ quote ข้อความโดยจะทำการสร้าพื้นที่สำหรับเนื้อหาขึ้นมา
+            <br>&lt;q&gt; จะเป็นการใส่เครื่องหมาย double quote เข้าไปในข้อความ
+            <br>&lt;abbr&gt; จะเป็นการ mark ตัวอักษรใช้กับตัวอักษรย่อ
+            <br>&lt;address&gt; ใช้กับข้อความที่เกียวกับ สถานที่ตั้ง หรือที่อยู่ สถานที่ติดต่อ
+            <br>&lt;cite&gt; ใช้กับชื่อ ภาพ หนังสือ เเละสื่อต่างๆ
+            <br>&lt;bdo&gt; ใช้กลับตำเเหน่งของตัวอักษรในข้อความ
+            </p>
         
+        <h2>html comment</h2>
+        <p>การเขียน comment สามารถทำใด้โดยการใช้ &lt;!-- comment content --></p>
+
+        <h2>html color</h2>
+        <p>สำหรับการตั้งค่าสีใน html สามารถใช้ชื่อสี หรือใช้การกำหนดสีตามระบบต่อไปนี้
+        <br><a href="https://www.w3schools.com/css/css_colors_rgb.asp">HEX</a>
+        <br><a href="https://www.w3schools.com/css/css_colors_hex.asp">RGB & RGBA</a>
+        <br><a href="https://www.w3schools.com/css/css_colors_hsl.asp">HSL & HSLA</a>
+        </p>
 
 
+    <hr>
+    <h1>Javascript</h1>
+        <h2>var</h2>
+        <p>การสร้างตัวเเปรใน javascript สามารถทำใด้โดยการใช้คำสั่ง var <br><b>example</b></p>
+        <p>var num = 0 , name = 'jame';</p>
+        <p>จากตัวอย่างจะเห็นใด้ว่าใน javascript การประกาศตัวแปรจะไม่ใช้ชนิดของตัวเเปรมาใช้เพื่อประกาศตัวเเปร(เช่น int float string...) เเต่จะเป็นการประกาศเพียงช่อตัวเเปรเเล้วชนิดของตัวเเปรจะขึ้นอยู่กับตัวเเปรที่เก็บไว้</p>
+        
+        <h2>if&else</h2>
+        <p>ใน javascript การใช้ if&else นั้นจะเหมื่อนกับภาษาอื่นๆโดยจะใช้ syntax ดังต่อไปนี้</p>
+        <pre>if(condition_1){
+        <br>    do when the condition_1 was true ;
+        <br>} else if(condition_2){
+        <br>    do when the condition_2 was true and condition_1 was false ;
+        <br>} else {
+        <br>    do when the condition was none above ;
+        <br>}
+        </pre>
+
+        <h2>switch case</h2>
+        <p>การทำงานของ switch case จะเหมือนกับการใช้ if else ไปทีละ condition เเต่ switch case จะดูสั้นกว่าการใช้ if else โดย swith case จะมี syntax ดังต่อไปนี้</p>
+        <pre>switch (expression) {
+        <br>    case condition_1: do when condition_1 was true;
+        <br>    break;
+        <br>    
+        <br>    case condition_2: do when condition_2 was true;
+        <br>    break;
+        <br>    ...
+        <br>    
+        <br>    case condition_n: do when condition_n was true;
+        <br>    break;
+        <br>    
+        <br>    default: do when none of all above condition was true;
+        <br>}
+        </pre>
+
+        <h2>for loop</h2>
+        <p>การใช้งาน for loop จะใช้เมื่อต้องการที่จะทำบางอย่างซ้ำๆไปเรื่อยๆจนกว่าจะใด้ผลที่ต้องการโดย for loop จะใช้ syntax ต่อไปนี้</p>
+        <pre>for (varlueble ; condition ; iteration){
+        <br>    statement;
+        <br>}
+        </pre>
+        <p><b>example</b></p>
+        <pre>var n = 0 ;
+        <br>for(var i = 0 ; i &lt; 20 ; i++){
+        <br>    n += i ;
+        <br>}
+        </pre>
+        <p>การใช้ for loop เพื่อนำค่าภายใน list มาใช้นั้นจะต้องใช้คำสั่ง</p>
+        <pre>for ( var i = 0 ; i &lt; some_list.length ; i++){
+        <br>    statement for some_list[i];
+        <br>}
+        </pre>
+        <p>ซื่งดูยุ่งยากเเต่ใน javascript นั้นมี for in มาให้ใช้เพื่อลดจำนวนตัวเเปลลงไปเเละง่ายต่อการอ่านโดยใช้ syntax ต่อไปนี้</p>
+        <pre>for (varlueble in some_list){
+        <br>    statement for varlueble;
+        <br>}
+        </pre>
+
+        <h2>while loop</h2>
+        <p>การทำงานของ while loop นั้นเหมื่อนกับ for loop เพียงเเต่ต้องการเพียง condition เดียวโดยมี syntax ต่อไปนี้</p>
+        <pre>while (condition){
+        <br>     statement to excecute while condition was true;
+        <br>}
+        </pre>
+        <p>do while จะเป็นการทำช้ำเหมื่อนกับ while loop เเต่จะต่างกันตรงที่เมื่อเจอ while เเล้ว ตัว condition เป็น true เเลัวจึงจะกลับไปทำที่ do</p>
+        <p>example</p>
+        <pre>do {
+        <br>    statement to excecute while condition was true;
+        <br>} while (condition);
+        </pre>
+        <h2>function</h2>
+        <p>การสร้าง function ใน javascript นั้นสามารถทำใด้โดยการใช้คำสั่ง function</p>
+        <p>example</p>
+        <pre>function sqare_root(num){
+        <br>    return Math.sqrt(num)
+        <br>}
+        </pre>
+        <p>หลังจากที่สร้าง function ขึ้นมาเเล้วการจะเรียกใช้งานก็ทำเพียงเเค่ใช้ sqare_root(some_number)</p>
+
+        <h2>commenting</h2>
+        <p>การ comment ใน javascript ทำใด้โดยการใช้ //</p>
+        <p>example</p>
+        <p>// comment line</p>
+        <p>ส่วนการ comment section ให้เริ่มด้วย /* เเละจบด้วย */</p>
+        <p>example</p>
+        <pre>/*
+        <br>    comment section
+        <br>    this section will be ignore by javascript
+        <br>*/ 
+        </pre>
+    
     </body>
 </html>
